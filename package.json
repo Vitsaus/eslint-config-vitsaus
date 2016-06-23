@@ -1,0 +1,15 @@
+{
+  "name": "eslint-config-vitsaus",
+  "version": "1.0.0",
+  "description": "eslint config for my personal projects",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vitsaus/eslint-config-vitsaus.git"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "author": "Ville Takala",
+  "license": "MIT"
+}
