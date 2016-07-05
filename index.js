@@ -567,7 +567,7 @@ module.exports = {
         'after',
       ],
       // enforce padding within blocks
-      'padded-blocks': 0,
+      'padded-blocks': [2, { "blocks": "always", "switches": "always", "classes": "always" }],
       // require quotes around object literal property names
       'quote-props': 0,
       // specify whether double or single quotes should be used
