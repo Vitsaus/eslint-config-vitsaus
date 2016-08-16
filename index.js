@@ -402,36 +402,6 @@ module.exports = {
           'properties': false,
         },
       ],
-      // Blacklist certain identifiers to prevent them being used
-      'id-blacklist': [
-        2,
-        // Generic, try instead naming with context, for example 'userData', 'fileError', 'httpCallback'
-        'item',
-        'err',
-        'error',
-        'cb',
-        'callback',
-        // These name the type but have no other real context. Try naming with context
-        'array',
-        'func',
-        'object',
-        'string',
-        'num',
-        'number',
-        // Common placeholder variables, avoid these in real code
-        'foo',
-        'bar',
-        'baz',
-        'bang',
-        'biz',
-        'bong',
-        'tmp',
-        'temp',
-        'thing',
-        // These are common names for `this`. Instead use bind or arrow functions
-        'that',
-        'context',
-      ],
       // this option sets a specific tab width for your code
       'indent': ['warn', 4],
       // specify whether double or single quotes should be used in JSX attributes
