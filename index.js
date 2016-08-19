@@ -285,7 +285,7 @@ module.exports = {
       // disallow declaration of variables that are not used in the code
       'no-unused-vars': 0,
       // disallow use of variables before they are defined
-      'no-use-before-define': 2,
+      'no-use-before-define': 0,
 
       // # Node.js
       // These rules are specific to JavaScript running on Node.js.
@@ -379,19 +379,7 @@ module.exports = {
       'func-style': 0,
       // this option enforces minimum and maximum identifier lengths
       // (variable names, property names etc.)
-      'id-length': [
-        2,
-        {
-          // identifiers must be a minimum of 3 characters
-          'min': 3,
-          // ... and a max of 50
-          'max': 50,
-          // ... but `i`, `x`, and `y`, and 'id' are allowed
-          'exceptions': [ 'i', 'x', 'y', 'z', 'id', '$', '_', 'el' ],
-          // don't check identifiers that are object properties
-          'properties': 'never',
-        },
-      ],
+      'id-length': 0,
       // require identifiers to match the provided regular expression
       'id-match': [
         2,
