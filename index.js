@@ -372,7 +372,7 @@ module.exports = {
         'self',
       ],
       // enforce newline at the end of file, with no multiple empty lines
-      'eol-last': 2,
+      'eol-last': 0,
       // require function expressions to have a name
       'func-names': 0,
       // enforces use of function declarations or expressions
