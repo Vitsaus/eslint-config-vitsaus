@@ -38,6 +38,8 @@ module.exports = {
       }
   },
 
+  'plugins': ['vitsaus'],
+
   'rules': {
 
       // # Possible Errors
@@ -115,7 +117,7 @@ module.exports = {
       // Enforces getter/setter pairs in objects
       'accessor-pairs': 0,
       // Enforces return statements in callbacks of array's methods
-      'array-callback-return': 0,
+      'array-callback-return': 2,
       // treat var statements as if they were block scoped
       'block-scoped-var': 0,
       // require return statements to either always or never specify values
@@ -291,7 +293,11 @@ module.exports = {
       // These rules are specific to JavaScript running on Node.js.
 
       // enforces error handling in callbacks
-      'callback-return': 0,
+      'callback-return': [
+        2,
+        // name of callback argument
+        ['callback', 'cb', 'next', 'done'],
+      ],
       // enforce `require()` on top-level module scope
       'global-require': 2,
       // enforces error handling in callbacks
