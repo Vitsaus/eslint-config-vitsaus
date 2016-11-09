@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-vitsaus",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "eslint config for my personal projects",
   "main": "index.js",
   "repository": {
