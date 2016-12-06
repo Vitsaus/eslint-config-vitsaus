@@ -44,10 +44,10 @@ module.exports = {
 
       // # My plugin for custom rules
       'vitsaus/newline-before-if': 1,
-      'vitsaus/newline-before-class': 1,
+      'vitsaus/newline-before-export': 1,
       'vitsaus/newline-before-function': 1,
       'vitsaus/newline-after-if': 1,
-      'vitsaus/newline-after-class': 1,
+      'vitsaus/newline-after-export': 1,
       'vitsaus/newline-after-function': 1,
 
       // # Possible Errors

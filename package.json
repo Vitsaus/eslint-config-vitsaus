@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-vitsaus",
-  "version": "1.0.12",
+  "version": "1.0.15",
   "description": "eslint config for my personal projects",
   "main": "index.js",
   "repository": {
@@ -13,6 +13,6 @@
   "author": "Ville Takala",
   "license": "MIT",
   "dependencies": {
-    "eslint-plugin-vitsaus": "1.0.4"
+    "eslint-plugin-vitsaus": "1.0.7"
   }
 }
